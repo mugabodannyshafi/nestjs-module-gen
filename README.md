@@ -23,7 +23,7 @@ cd my-nestjs-app
 nest-builder resource users
 
 # Or use the short alias
-nf res users
+nb res users
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ nf res users
 ```bash
 nest-builder resource users
 # or
-nf res users
+nb res users
 ```
 
 This creates a complete CRUD module with organized folder structure:
@@ -59,15 +59,15 @@ src/users/
 ```bash
 # Generate only a controller
 nest-builder controller users
-nf co users
+nb co users
 
 # Generate only a service
 nest-builder service users
-nf s users
+nb s users
 
 # Generate only a module
 nest-builder module users
-nf mo users
+nb mo users
 ```
 
 ### Interactive Mode
@@ -87,22 +87,22 @@ nest-builder resource
 ```bash
 # Skip test files
 nest-builder resource users --no-spec
-nf res users --no-spec
+nb res users --no-spec
 
 # Generate empty controller/service (no CRUD)
 nest-builder controller users --no-crud
-nf service users --no-crud
+nb service users --no-crud
 ```
 
 ## All Available Commands
 
 | Command | Alias | Description |
 |---------|-------|-------------|
-| `nest-builder resource [name]` | `nf res` | Generate complete module with all files |
-| `nest-builder controller [name]` | `nf co` | Generate controller only |
-| `nest-builder service [name]` | `nf s` | Generate service only |
-| `nest-builder module [name]` | `nf mo` | Generate module only |
-| `nest-builder g <type> [name]` | `nf g` | Generate using shorthand |
+| `nest-builder resource [name]` | `nb res` | Generate complete module with all files |
+| `nest-builder controller [name]` | `nb co` | Generate controller only |
+| `nest-builder service [name]` | `nb s` | Generate service only |
+| `nest-builder module [name]` | `nb mo` | Generate module only |
+| `nest-builder g <type> [name]` | `nb g` | Generate using shorthand |
 
 ### Shorthand Generate Commands
 
