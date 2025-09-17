@@ -1,6 +1,6 @@
 {
-  "name": "nest-forge",
-  "version": "0.0.1",
+  "name": "nest-builder",
+  "version": "0.0.2",
   "description": "🔨 Forge better NestJS modules with organized folder structure",
   "keywords": [
     "nestjs",
@@ -15,7 +15,7 @@
   "private": false,
   "license": "MIT",
   "bin": {
-    "nest-forge": "./dist/index.js",
+    "nest-builder": "./dist/index.js",
     "nf": "./dist/index.js" 
   },
   "scripts": {

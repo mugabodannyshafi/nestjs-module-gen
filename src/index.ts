@@ -480,7 +480,7 @@ async function updateAppModule(moduleName) {
 }
 
 // CLI setup
-program.name('nest-forge').description('NestJS Module Generator CLI').version('2.0.0');
+program.name('nest-builder').description('NestJS Module Generator CLI').version('2.0.0');
 
 // Resource command
 program
