@@ -12,7 +12,7 @@
     "typescript"
   ],
   "author": "Shafi Danny MUGABO",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "bin": {
     "nest-forge": "./dist/index.js",
